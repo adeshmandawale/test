@@ -24,3 +24,5 @@ def lambda_handler(event, context):
         'statusCode': 200,
         'body': json_data
     }
+
+ #Additionally, you can add error handling to ensure that any issues with the S3 upload are properly logged and handled. Here's an updated version of the code with error handling:
